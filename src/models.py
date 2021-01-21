@@ -193,7 +193,7 @@ class VAE(nn.Module):
         """
         return self.latent_to_recon_data(latent_sample)
     
-    def forward(self, x):
+    def forward(self, x):  
         """
         Forward pass of model.
 
